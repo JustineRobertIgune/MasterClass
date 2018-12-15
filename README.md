@@ -3,23 +3,24 @@ This repo is to demonstrate how to connect a Flask API to a Postgres database
 
 ## Getting Started
 * Clone the repo
-`git clone `
+	`git clone https://github.com/KengoWada/MasterClass.git`
 * Then
-`cd `
+	`cd MasterClass`
 * If you don't have virtualenv installed
-`pip install virtualenv`
+	`pip install virtualenv`
 * Create a virtual environment
-`python -m virtualenv venv` OR
-`python3 -m venv venv` if you have more than one python version installed
+	`python -m virtualenv venv` 
+	OR
+	`python3 -m venv venv` if you have more than one python version installed
 * Activate the virtual environment
-`source venv/bin/activate` for Unix/Linux
-`source venv/Scripts/activate` for Windows
+	`source venv/bin/activate` for Unix/Linux
+	`source venv/Scripts/activate` for Windows
 * Install the packages from requirements.txt
-`pip install -r requirements.txt`
+	`pip install -r requirements.txt`
 * Change database credentials in db.py
 * Run the app
-`python app.py` OR
-`python3 app.py` if you have more than one python version installed
+	`python app.py` OR
+	`python3 app.py` if you have more than one python version installed
 
 ### Built With
 * [Python/Flask](http://flask.pocoo.org/)
